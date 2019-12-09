@@ -12,7 +12,7 @@ FluentValidator
 
 <b> A documentação da Api foi configurada através do SwaggerGen </b>
 <hr>
-Atualmente possui apenas 4 endpoint: <br>
+Atualmente tem 4 endpoint: <br>
 /api/Truck/getAll <br>
 /api/Truck/insert <br>
 /api/Truck/update/{id} <br>
@@ -20,7 +20,7 @@ Atualmente possui apenas 4 endpoint: <br>
 
 <hr>
 
-A pagina inicial do swagger está configurada para http://localhost:5000/swagger/index.html 
+A pagina inicial do swagger pode ser acessada após a inicialização do app e está configurada para http://localhost:{porta}/swagger/index.html 
 
 <br >
 
@@ -28,7 +28,7 @@ O projeto de inicialização chama-se TruckSystem.WebApi
 
 <br >
 
-Atualmente a connection string da aplicação aponta para um localdb, mas é possível modifica-la para outra instancia no SqlServer
+Atualmente a connection string da aplicação aponta para um localdb, mas é possível modifica-la para outra instância no SqlServer
 
 Obs.:
 Migrations já foram realizados e o update-database está configurado para rodar automaticamente através do program.cs quando o projeto for iniciado
